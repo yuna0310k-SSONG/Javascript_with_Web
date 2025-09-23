@@ -1,0 +1,43 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+nav {
+  padding: 20px 0;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav > i {
+  font-size: 40px;
+}
+
+.sidebar {
+  padding: 40px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 30vw;
+  height: 100vh;
+  background-color: #262f3c;
+  transition: all 0.5s;
+}
+
+.hidden {
+  transform: translateX(30vw);
+}
+
+.close {
+  font-size: 60px;
+  color: white;
+}
+
+section {
+  height: 100vh;
+  border: 5px solid red;
+}
