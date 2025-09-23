@@ -1,0 +1,13 @@
+.myButton {
+  padding: 2px 4px;
+  border: none;
+  background-color: pink;
+  border-radius: 4px;
+}
+.overFive {
+  background-color: rgb(206, 169, 241);
+}
+
+.underthree {
+  background-color: rgb(255, 255, 200);
+}
