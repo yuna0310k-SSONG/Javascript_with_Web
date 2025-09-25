@@ -1,0 +1,32 @@
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 50px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+section > .box {
+  width: 300px;
+  height: 300px;
+
+  filter: blur(10px);
+}
+.red {
+  background-color: red;
+}
+.orange {
+  background-color: orange;
+}
+.yellow {
+  background-color: yellow;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+.purple {
+  background-color: purple;
+}
