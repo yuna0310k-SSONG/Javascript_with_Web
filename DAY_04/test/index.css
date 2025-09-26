@@ -9,8 +9,7 @@ section {
 section > .box {
   width: 300px;
   height: 300px;
-
-  filter: blur(10px);
+  filter: blur(50px);
 }
 .red {
   background-color: red;

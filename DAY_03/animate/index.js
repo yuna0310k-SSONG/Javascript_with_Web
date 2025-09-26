@@ -13,6 +13,6 @@ heading.animate(
     },
   ],
   {
-    duration: 10000,
+    duration: 1000,
   }
 );
