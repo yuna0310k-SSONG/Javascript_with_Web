@@ -1,4 +1,5 @@
-//IntersectionObserver 인터셉션 목적어(?)
+//IntersectionObserver 인터셉션 옵저버
+
 const lunch = document.querySelector("#lunch");
 const dinner = document.querySelector("#dinner");
 
