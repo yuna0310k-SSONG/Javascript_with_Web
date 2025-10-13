@@ -25,3 +25,5 @@ const ob = new IntersectionObserver(
 );
 
 ob.observe(mobile);
+
+document.querySelector(".my-box");

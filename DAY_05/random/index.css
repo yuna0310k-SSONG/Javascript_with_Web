@@ -1,0 +1,17 @@
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+input {
+  color: rgb(165, 164, 164);
+  text-align: center;
+  width: 200px;
+  font-size: 16px;
+}
+button {
+  font-size: 16px;
+  padding: 8px 20px;
+}
