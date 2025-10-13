@@ -39,7 +39,7 @@ btn.addEventListener("click", () => {
   game.lastInput = userNum;
 
   if (game.chances <= 0) {
-    answer.innerText = `기회가 없습니다! 정답은 ${game.answer} `;
+    answer.innerText = `기회가 없습니다! 정답은 ${game.answer}`;
     answer.style.color = "red";
     return;
   }
@@ -64,7 +64,7 @@ btn.addEventListener("click", () => {
   chance.innerText = `남은 도전 기회 : ${game.chances}`;
 
   if (game.chances === 0 && userNum !== game.answer) {
-    answer.innerText = `기회 끝! 정답은 ${game.answer} 💥`;
+    answer.innerText = `기회 끝! 정답은 ${game.answer}💥`;
     answer.style.color = "red";
     title.innerText = "Reset을 눌러 새 게임을 시작하세요!";
     btn.disabled = true;
