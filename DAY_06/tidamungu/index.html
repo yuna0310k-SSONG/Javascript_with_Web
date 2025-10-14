@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <h1>회원가입</h1>
+    <article>
+      <div>회원가입 정보를 입력해 주세요</div>
+
+      <!-- ID -->
+      <input id="id" type="text" placeholder="아이디를 입력해 주세요" />
+      <div class="checkList">
+        <p id="id_type"><i class="ri-check-line"></i>영문/숫자</p>
+        <p id="id_length"><i class="ri-check-line"></i>6~20자 내외</p>
+      </div>
+
+      <!-- PW -->
+      <input id="pw" type="text" placeholder="비밀번호를 입력해 주세요" />
+      <div class="checkList">
+        <p id="pw_type"><i class="ri-check-line"></i>영문</p>
+        <p id="pw_num"><i class="ri-check-line"></i>숫자</p>
+        <p id="pw_special"><i class="ri-check-line"></i>특수문자(!@$%^*_+~)</p>
+        <p id="pw_length"><i class="ri-check-line"></i>8~20자 내외</p>
+      </div>
+      <!-- ID -->
+      <input id="email" type="text" placeholder="이메일을 입력해 주세요" />
+      <div class="checkList">
+        <p id="email_type"><i class="ri-check-line"></i>이메일 형식</p>
+      </div>
+      <!-- btn -->
+      <button id="btn" disabled>가입</button>
+    </article>
+  </body>
+</html>
