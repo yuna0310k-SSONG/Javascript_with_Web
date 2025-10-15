@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../../reset.css" />
+    <link rel="stylesheet" href="index.css" />
+    <script type="module" src="index.js" defer></script>
+  </head>
+  <body>
+    <form>
+      <div>
+        <div class="inputField">
+          <input id="idInput" type="text" placeholder="아이디를 입력해주세요." />
+        </div>
+        <div class="validation">
+          <span id="idValEngDigit">영문/숫자</span>
+          <span id="idValLength">6 ~ 20자 내외</span>
+        </div>
+      </div>
+      <div>
+        <div class="inputField">
+          <input id="passwordInput" type="text" placeholder="비밀번호를 입력해 주세요." />
+        </div>
+        <div class="validation">
+          <span id="pwValEng">영문</span>
+          <span id="pwValDigit">숫자</span>
+          <span id="pwValSpecial">특수문자 (!@$%^*_+~)</span>
+          <span id="pwValLength">8~20자 내외</span>
+        </div>
+      </div>
+      <div>
+        <div class="inputField">
+          <input id="emailInput" type="email" placeholder="이메일을 입력해 주세요." />
+        </div>
+        <div class="validation">
+          <span id="emailValForm">이메일 형식</span>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

@@ -12,7 +12,7 @@ function updateButtonState() {
     pw_length,
     email_type,
   ];
-  const allGreen = all.every((el) => el.style.color === "green");
+  const allGreen = all.every((v) => v.style.color === "green");
 
   btn.disabled = !allGreen; // 전부 green이면 활성화
   btn.style.backgroundColor = allGreen ? "green" : "rgb(168, 167, 167)";
@@ -20,7 +20,7 @@ function updateButtonState() {
 
 // ID 검사
 id.addEventListener("input", () => {
-  const value = id.value;
+  const { value } = id;
   const pattern = /^[a-zA-Z0-9]+$/;
 
   const isValidType = pattern.test(value);
@@ -33,7 +33,7 @@ id.addEventListener("input", () => {
 
 // PW 검사
 pw.addEventListener("input", () => {
-  const value = pw.value;
+  const { value } = pw;
 
   const hasLetter = /[a-zA-Z]/.test(value);
   const hasNumber = /\d/.test(value);
@@ -47,7 +47,7 @@ pw.addEventListener("input", () => {
   updateButtonState();
 });
 
-// 🔸 이메일 검사
+//  이메일 검사
 email.addEventListener("input", () => {
   const pattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
   const isValidEmail = pattern.test(email.value);
