@@ -1,0 +1,55 @@
+section {
+  width: 100%;
+  height: 100vh;
+  background-image: url(cloud.avif);
+  background-repeat: no-repeat; /* 반복 금지 */
+  background-size: cover; /* 화면 크기에 맞게 확대/축소 */
+  background-position: center; /* 가운데 정렬 */
+
+  position: relative;
+}
+.buttons {
+  max-width: 1000px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  gap: 50px;
+
+  padding: 50px;
+}
+button {
+  padding: 10px 50px;
+  display: flex;
+  flex-direction: row;
+
+  background-color: rgba(216, 216, 216, 0.384);
+  color: rgb(51, 51, 51);
+  font-weight: 600;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+button:hover {
+  cursor: pointer;
+}
+.time {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  left: 45vw;
+  top: 45vh;
+
+  line-height: 40px;
+  border: 1px solid white;
+  padding: 20px;
+}
+.time > .locationTime {
+  color: white;
+  font-weight: 500;
+  font-size: 24px;
+}
